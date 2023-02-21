@@ -45,13 +45,13 @@ body:
       description: Please provide a short description about this Transformation
       render: shell
   - type: textarea
-    id: Code block
+    id: codeblock
     attributes:
       label: Code Block
       description: Please add code block here 
       render: shell
   - type: textarea
-    id: Payload for testing
+    id: payload
     attributes:
       label: Input Payload for testing 
       description: Please add code block here 
