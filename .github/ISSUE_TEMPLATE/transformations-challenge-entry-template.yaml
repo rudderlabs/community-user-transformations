@@ -1,7 +1,4 @@
-name: Transformations challenge entry template
-description: Please submit transfrmtation details here
-title: "[Transformation Challenge]: "
-labels: ["challenge"]
+title: "[Transformation Challenge] "
 
 body:
   - type: markdown
