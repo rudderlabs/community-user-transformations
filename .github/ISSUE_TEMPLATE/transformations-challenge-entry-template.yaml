@@ -1,6 +1,6 @@
 name: Transformations challenge entry template
 description: please submit transfrmtation details here
-title: "[Transformation Chanllenge]: "
+title: "[Transformation Challenge]: "
 labels: ["challenge"]
 assignees:
   - gitcommitshow, saramashfej
@@ -30,7 +30,8 @@ body:
   - type: dropdown
     id: category
     attributes:
-      label: What challenge category does ths fall under?
+      label: category
+      description: What category of Transformations does this fall under?
       multiple: true
       options:
         - Data Security and Governance
