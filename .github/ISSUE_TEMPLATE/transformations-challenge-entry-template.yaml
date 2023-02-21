@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Transformations challenge entry template
+description: please submit transfrmtation details here
+title: "[Transformation Chanllenge]: "
+labels: ["challenge"]
 assignees:
-  - octocat
+  - gitcommitshow, saramashfej
 body:
   - type: markdown
     attributes:
@@ -17,40 +17,30 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: Programming Language 
+    id: Language
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Language
+      description: What was the programming language you were using?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Javascript
+        - Python
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: category
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What challenge category does ths fall under?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Data Security and Governance
+        - Data Processing and Enrichment
+        - Data Cleaning and Routing 
+        - Custom/others 
   - type: textarea
-    id: logs
+    id: description
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please provide a short description about this Transformation
       render: shell
   - type: checkboxes
     id: terms
