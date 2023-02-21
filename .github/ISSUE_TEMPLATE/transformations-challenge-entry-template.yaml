@@ -40,8 +40,8 @@ body:
   - type: textarea
     id: description
     attributes:
-    label: Please provide a short description about this Transformation
-      description: provide
+    label: description
+      description: Please provide a short description about this Transformation
       render: shell
   - type: checkboxes
     id: terms
