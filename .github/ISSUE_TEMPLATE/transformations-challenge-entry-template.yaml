@@ -27,18 +27,6 @@ body:
         - Python
     validations:
       required: true
-  - type: dropdown
-    id: category
-    attributes:
-      label: category
-      description: What category of Transformations does this fall under?
-      options:
-        - Data Security and Governance
-        - Data Processing and Enrichment
-        - Data Cleaning and Routing 
-        - Custom/others 
-     validations:
-     required: true
   - type: textarea
     id: description
     attributes:
