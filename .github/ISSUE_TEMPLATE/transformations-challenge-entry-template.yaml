@@ -32,7 +32,6 @@ body:
     attributes:
       label: category
       description: What category of Transformations does this fall under?
-      multiple: true
       options:
         - Data Security and Governance
         - Data Processing and Enrichment
