@@ -1,12 +1,9 @@
----
-name: Transformations challenge entry template
-about: Please fill in information related to your Transformation entry
-title: "[Transformation Challenge]: "
-labels: competition
-assignees: ''
-
----
-
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
