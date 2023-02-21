@@ -1,9 +1,8 @@
 name: Transformations challenge entry template
-description: please submit transfrmtation details here
+description: Please submit transfrmtation details here
 title: "[Transformation Challenge]: "
 labels: ["challenge"]
-assignees:
-  - gitcommitshow, saramashfej
+
 body:
   - type: markdown
     attributes:
@@ -25,6 +24,18 @@ body:
       options:
         - Javascript
         - Python
+    validations:
+      required: true
+  - type: dropdown 
+    id: Category
+    attributes:
+      label: Category
+      description: What category of Transformation does this fall within?
+      options:
+        - Data Security & Governance
+        - Data Processing and Enrichment
+        - Data Cleaning and Routing 
+        - Custom/Other
     validations:
       required: true
   - type: textarea
