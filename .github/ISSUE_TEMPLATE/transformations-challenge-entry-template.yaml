@@ -37,6 +37,8 @@ body:
         - Data Processing and Enrichment
         - Data Cleaning and Routing 
         - Custom/others 
+     validations:
+     required: true
   - type: textarea
     id: description
     attributes:
