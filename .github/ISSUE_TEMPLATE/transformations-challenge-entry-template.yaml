@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for entering the Transformations challenge!
   - type: input
     id: contact
     attributes:
@@ -40,7 +40,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      description: Please provide a short description about this Transformation
+    label: Please provide a short description about this Transformation
+      description: provide
       render: shell
   - type: checkboxes
     id: terms
