@@ -1,5 +1,5 @@
-name: Transforation challenge entry template
-description: In order for enter your submission for the challenge, please fill out the information below:
+name: Transformation challenge entry template
+description: Enter your submission for the challenge
 
 body:
   - type: markdown
