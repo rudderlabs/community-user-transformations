@@ -32,8 +32,7 @@ body:
       options:
         - Data Security & Governance
         - Data Processing and Enrichment
-        - Data Cleaning and Routing 
-        - Custom/Other
+        - Custom Integrations/Other
     validations:
       required: true
   - type: textarea
