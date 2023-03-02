@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: description
+      label: Description
       description: Please provide a short description about this Transformation
       render: shell
   - type: textarea
