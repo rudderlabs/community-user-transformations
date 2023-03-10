@@ -57,5 +57,6 @@ body:
     id: license
     attributes:
       label: License
-      description: I understand, that my code will be licensed under [MIT license](../../LICENSE)
       required: true
+      options:
+        - label: I understand, that my code will be licensed under [MIT license](../../LICENSE)
