@@ -58,5 +58,5 @@ body:
     attributes:
       label: License
       options:
-        - label: I understand, that my code will be licensed under [MIT license](../../LICENSE)
+        - label: I understand, that my code will be licensed under MIT license (copy of license is available in this repo)
           required: true
