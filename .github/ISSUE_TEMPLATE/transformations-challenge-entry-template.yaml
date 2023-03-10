@@ -53,3 +53,9 @@ body:
       label: Input Payload for testing 
       description: Please add code block here 
       render: shell
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      description: I understand, that my code will be licensed under [MIT license](../../LICENSE)
+      required: true
