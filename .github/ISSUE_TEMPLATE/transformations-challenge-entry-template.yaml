@@ -40,7 +40,6 @@ body:
     attributes:
       label: Description
       description: Please provide a short description about this Transformation
-      render: shell
   - type: textarea
     id: codeblock
     attributes:
